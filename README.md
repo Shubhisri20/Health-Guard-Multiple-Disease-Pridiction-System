@@ -1,14 +1,14 @@
-Multiple Disease Prediction System using Machine Learning
+Multiple Disease Prediction System using Machine Learning:
 
 
-Overview
+Overview:
 
 
 The Multiple Disease Prediction System is a machine learning-based application designed to predict the likelihood of various diseases, such as diabetes, heart disease, and more. By analyzing user-provided health data, the system can provide predictions that may assist in early diagnosis and prompt medical attention.
 
 
 
-Features
+Features:
 
 
 Multi-Disease Prediction: Supports the prediction of multiple diseases using a single platform.
@@ -21,14 +21,14 @@ Scalable Architecture: Easily extendable to include more diseases.
 
 
 
-Dataset
+Dataset:
 
 
 The project uses datasets from trusted sources like the UCI Machine Learning Repository, Kaggle, and others. These datasets include various health parameters (e.g., blood pressure, glucose levels) necessary for accurate predictions.
 
 
 
-Technologies Used
+Technologies Used:
 
 
 Programming Language: Python
@@ -63,7 +63,7 @@ Backend: Python
 
 
 
-Usage
+Usage:
 
 
 Input the necessary health data into the provided fields.
@@ -78,7 +78,7 @@ requirements.txt: List of Python packages required to run the project.
 
 
 
-Future Enhancements
+Future Enhancements:
 
 
 Adding More Diseases: Expanding the system to predict more diseases.
