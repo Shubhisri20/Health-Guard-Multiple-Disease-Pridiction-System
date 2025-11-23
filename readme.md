@@ -1,60 +1,71 @@
-📌 Health Guard – Multiple Disease Prediction System
-AI-powered health prediction app built with Machine Learning & Streamlit
+# 🏥 Health Guard – Multiple Disease Prediction System
+### AI-powered health prediction app built with Machine Learning & Streamlit
 
-The Health Guard application allows users to input medical attributes and predicts the likelihood of multiple diseases including Diabetes, Heart Disease, and Parkinson’s Disease.
-It uses trained machine learning models and provides an intuitive UI built in Streamlit. The project also features PDF report generation for prediction summaries.
+![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
+![Streamlit](https://img.shields.io/badge/Streamlit-Web%20App-red.svg)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Models-green)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-🚀 Features
+---
 
-✔ Predict Diabetes, Heart Disease, and Parkinson’s Disease
-✔ Streamlit-based clean and interactive UI
-✔ Machine Learning model integration (Logistic Regression / SVM)
-✔ Medical report summary generated as PDF
-✔ Modular & scalable code structure
-✔ User-friendly responsive interface
+## 📄 Overview
+**Health Guard** is an AI-powered medical diagnosis assistance system that enables users to input medical attributes and predict the likelihood of **multiple diseases**, including **Diabetes, Heart Disease, and Parkinson’s Disease**.  
+The application integrates **trained machine learning models** into an intuitive **Streamlit** user interface and supports **PDF medical summary report generation**.
 
-🖥 Tech Stack
-Category	Technology
-Frontend UI	Streamlit
-Backend	Python
-Libraries	NumPy, Pandas, Scikit-learn, Pickle
-PDF Generator	ReportLab
-Models Used	Logistic Regression, Support Vector Machine (SVC)
-IDE	VS Code / PyCharm / Jupyter
-Deployment	Localhost / Streamlit Cloud
-📂 Project Structure
-Health-Guard/
-│
-├── diabetes_model.sav
-├── heart_model.sav
-├── parkinsons_model.sav
-│
-├── main.py               # Main Streamlit App
-├── report_generator.py   # PDF export module
-│
-├── requirements.txt
-└── README.md
+---
 
-🔧 Installation & Setup
-1️⃣ Clone the Repository
+## 🚀 Features
+- ✔ Predict **Diabetes, Heart Disease & Parkinson’s Disease**
+- ✔ **Clean & interactive** Streamlit UI
+- ✔ **Machine Learning model integration** (Logistic Regression / SVM)
+- ✔ **PDF report generation**
+- ✔ **Modular & scalable** architecture
+- ✔ **Responsive and user-friendly** experience
+
+---
+
+## 🖥 Tech Stack
+
+| Category        | Technology |
+|----------------|------------|
+| Frontend UI    | Streamlit |
+| Backend        | Python |
+| Libraries      | NumPy, Pandas, Scikit-learn, Pickle |
+| PDF Generator  | ReportLab |
+| ML Models Used | Logistic Regression, Support Vector Machine (SVC) |
+| IDE            | VS Code / PyCharm / Jupyter |
+| Deployment     | Localhost / Streamlit Cloud |
+
+---
+
+## 📂 Project Structure
+
+- **Health-Guard/**
+  - `diabetes_model.sav` — Trained Diabetes prediction model
+  - `heart_model.sav` — Trained Heart Disease prediction model
+  - `parkinsons_model.sav` — Trained Parkinson’s Disease model
+  - `main.py` — Main Streamlit web application
+  - `report_generator.py` — PDF report creation module
+  - `requirements.txt` — Python dependencies list
+  - `README.md` — Project documentation
+
+---
+
+## 🔧 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
 git clone https://github.com/Shubhisri20/Health-Guard-Multiple-Disease-Pridiction-System.git
 cd Health-Guard
 
-2️⃣ Create a Virtual Environment
+
 python -m venv health_guard
-health_guard\Scripts\activate      # For Windows
-source health_guard/bin/activate   # For Mac/Linux
+health_guard\Scripts\activate        # Windows
+source health_guard/bin/activate     # Mac/Linux
 
-3️⃣ Install Dependencies
 pip install -r requirements.txt
-
-4️⃣ Run the Application
 streamlit run main.py
 
-📊 Machine Learning Models
-Disease	Algorithm	Accuracy
-Diabetes	Logistic Regression	~85%
-Heart Disease	Logistic Regression	~88%
-Parkinson’s Disease	Support Vector Machine (SVC)	~93%
+```
 
-Models were trained on publicly available datasets from Kaggle.
